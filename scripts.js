@@ -1,4 +1,4 @@
 
-makeFood() {
+function makeFood() {
   console.log("Food");
 }
