@@ -3,14 +3,11 @@ function makeFood() {
   console.log("Food");
 }
 
-var hideyToggle = 0;
+var hideyInt = 0;
 function hideyText() {
-  if(hideyToggle == 0) {
-    document.getElementById("hideyID").innerHTML = "This text is hiding now";
-    hideyToggle = 1;
-  }
-  if(hideyToggle == 1) {
+  if(hideyText != 1) {
+    window.alert("Oh. You broke my site. It should repair if you refresh.");
     document.getElementById("hideyID").innerHTML = "I am not really sure how to get the text normal again. Sorry for the inconvenience?";
-    hideyToggle = 0;
+    hideyInt = 1;
   }
 }
