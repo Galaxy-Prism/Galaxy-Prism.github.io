@@ -1,9 +1,9 @@
+var hideyInt = 0;
 
 function makeFood() {
   console.log("Food");
 }
 
-var hideyInt = 0;
 function hideyText() {
   if(hideyText != 1) {
     window.alert("Oh. You broke my site. It should repair if you refresh.");
